@@ -1,4 +1,6 @@
 (() => {
+    const SUPABASE_URL = 'https://hmvbccvtnrmkjanddmxc.supabase.co';
+  const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_70mTFeHAbUPOmXY11mUqNw_NM5ypwlO';
   const $ = id => document.getElementById(id);
   const audio = $('audio');
   let songs = [], playlists = [], currentIndex = -1, shuffle = false, repeat = false, activePlaylist = null;
